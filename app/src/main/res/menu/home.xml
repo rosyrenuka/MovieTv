@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/search"-->
+        <!--android:icon="@drawable/ic_search_icon"-->
+        <!--android:title="Search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+    <!--<item android:id="@+id/profile"-->
+        <!--app:showAsAction="always|collapseActionView"-->
+        <!--android:icon="@drawable/ic_people_icon"-->
+        <!--android:title="Profile">-->
+        <!--<menu >-->
+            <!--<item android:title="LogOut"-->
+                <!--android:id="@+id/logOut"-->
+                <!--android:icon="@drawable/ic_key_vector"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
